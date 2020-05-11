@@ -3,53 +3,73 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="wiewport" content="width=device-width, initial-scale=1.0">
-	<title>Wonders of Kenia</title>
+	<title>Memory game</title>
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<header>
-			<img class="logo" src="css/logo.png" alt="logo">
-			<nav class="hamburger">
-				<img src="css/hamburger.png" alt="">
-			</nav>
-		</header>
-	<section class="jumbotron">
-		
-		<section class="trip-calendar">
-			<ul>
-				<li>
-					<span class="trip-calendar-title">Days</span>
-					<span class="trip-calendar-value">09</span>
-				</li>
-				<li>
-					<span class="trip-calendar-title">Nights</span>
-					<span class="trip-calendar-value">08</span>
-				</li>
-				<li>
-					<span class="trip-calendar-title">Countries</span>
-					<span class="trip-calendar-value">01</span>
-				</li>
-				<li>
-					<span class="trip-calendar-title">Cities</span>
-					<span class="trip-calendar-value">02</span>
-				</li>
-			</ul>
-		</section>
+	<section class="memoryGame">
+		<div class="memoryCard" data-framework="burger">
+			<img class="frontFace" src="css/burger.png" alt="aurelia">
+			<img class="backFace" src="css/fork.jpg" alt="cardBack">
+		</div>
 
-		<a class="video-trigger" href="#">
-			<img src="css/play-button.png" alt=""><span>Watch reel</span>
-		</a>
+		<div class="memoryCard" data-framework="burger">
+			<img class="frontFace" src="css/burger.png" alt="aurelia">
+			<img class="backFace" src="css/fork.jpg" alt="cardBack">
+		</div>
 
-		<section class="page-heading">
-			<h1 class="page-title">Wonders<br class="break"> of Kenya</h1>
-			<p class="lead">Embark on a journey to the enchanting home of the African safari, fiery savannah sunsets and the colourfully clad Maasai - an epic adventure through Kenya’s iconic wilderness.</p>
-		</section>
+		<div class="memoryCard" data-framework="hotdog">
+			<img class="frontFace" src="css/hotdog.png" alt="backbone">
+			<img class="backFace" src="css/fork.jpg" alt="cardBack">
+		</div>
 
-		<section class="cta">
-			<a href="#" class="button button-main">Book now</a>
-			<a href="#" class="button button-transparent">More Info</a>
-		</section>
+		<div class="memoryCard" data-framework="hotdog">
+			<img class="frontFace" src="css/hotdog.png" alt="backbone">
+			<img class="backFace" src="css/fork.jpg" alt="cardBack">
+		</div>
+
+		<div class="memoryCard" data-framework="pizza">
+			<img class="frontFace" src="css/pizza.png" alt="react">
+			<img class="backFace" src="css/fork.jpg" alt="cardBack">
+		</div>
+
+		<div class="memoryCard" data-framework="pizza">
+			<img class="frontFace" src="css/pizza.png" alt="react">
+			<img class="backFace" src="css/fork.jpg" alt="cardBack">
+		</div>
+
+		<div class="memoryCard" data-framework="sushi">
+			<img class="frontFace" src="css/sushi.png" alt="angular">
+			<img class="backFace" src="css/fork.jpg" alt="cardBack">
+		</div>
+
+		<div class="memoryCard" data-framework="sushi">
+			<img class="frontFace" src="css/sushi.png" alt="angular">
+			<img class="backFace" src="css/fork.jpg" alt="cardBack">
+		</div>
+
+		<div class="memoryCard" data-framework="kebab">
+			<img class="frontFace" src="css/kebab.png" alt="vue">
+			<img class="backFace" src="css/fork.jpg" alt="cardBack">
+		</div>
+
+		<div class="memoryCard" data-framework="kebab">
+			<img class="frontFace" src="css/kebab.png" alt="vue">
+			<img class="backFace" src="css/fork.jpg" alt="cardBack">
+		</div>
+
+		<div class="memoryCard" data-framework="salad">
+			<img class="frontFace" src="css/salad.png" alt="ember">
+			<img class="backFace" src="css/fork.jpg" alt="cardBack">
+		</div>
+
+		<div class="memoryCard" data-framework="salad">
+			<img class="frontFace" src="css/salad.png" alt="ember">
+			<img class="backFace" src="css/fork.jpg" alt="cardBack">
+		</div>
 
 	</section>
+
+	<script src="js/main.js"></script>
 </body>
 </html>
